@@ -17,7 +17,7 @@ jobs:
       # step-no.2: actions/setup-node@v3 操作来安装指定版本的 Node.js，此处指定安装的版本为v14
       - uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: "16"
       # step-no.3: 运行命令行下载bats依赖到全局环境中
       - run: npm install -g bats
       # step-no.4: 运行命令行查看bats依赖的版本
