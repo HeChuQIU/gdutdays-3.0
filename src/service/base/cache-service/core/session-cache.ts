@@ -1,6 +1,6 @@
 import { AbstractCacheService } from "..";
 
-export class LocalCache implements AbstractCacheService {
+export class SessionCacheService implements AbstractCacheService {
   get() {
 
   }
