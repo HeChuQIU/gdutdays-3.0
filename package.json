@@ -26,7 +26,8 @@
     "dev:qq": "npm run build:qq -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
     "prepare": "husky install",
-    "lint": "npx eslint --fix 'src/**/*.{js,ts,vue}'"
+    "lint": "npx eslint --fix 'src/**/*.{js,ts,vue}'",
+    "pre-commit": "lint-staged"
   },
   "browserslist": [
     "last 3 versions",
