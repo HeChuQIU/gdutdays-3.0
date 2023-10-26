@@ -70,8 +70,11 @@
     "@vue/compiler-sfc": "^3.0.0",
     "babel-preset-taro": "3.6.18",
     "commitizen": "^4.3.0",
+    "commitlint": "^18.1.0",
+    "commitlint-config-cz": "^0.13.3",
     "css-loader": "3.4.2",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "^8.52.0",
     "eslint-config-taro": "3.6.18",
     "eslint-plugin-vue": "^8.7.1",
@@ -87,7 +90,10 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.cjs"
     }
   }
 }
